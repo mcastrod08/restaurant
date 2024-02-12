@@ -1,0 +1,115 @@
+.app__footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.app__newsletter {
+   
+    width: 800px;
+    border: 1px solid var(--color-golden);
+    background-color: var(--color-black);
+    text-align: center;
+}
+
+.app__newsletter-heading {
+    padding: 5rem;
+}
+
+.app__newsletter-input {
+    padding: 0 5rem 5rem 5rem;
+    flex-direction: row;
+}
+
+.app__newsletter-input input{
+    width: 620px;
+    border: 2px solid var(--color-golden);
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: var(--font-base);
+    color: var(--color-white);
+    margin-right: 1rem;
+    padding: 0.6rem 1rem;
+    background-color: var(--color-black);
+}
+
+.app__footer_links {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 3rem 0;
+}
+
+.app__footer-headtext {
+    color: var(--color-golden);
+    font-family: var(--font-base);
+    margin-bottom: 1rem;
+}
+
+.app__footer_links-icons {
+    margin-top: 0.5rem;
+}
+
+.app__footer_links-icons svg {
+    color: var(--color-white);
+    margin: 0.5rem;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.app__footer_links-icons svg:hover {
+    color: var(--color-golden);
+}
+
+.app__footer_links-logo img:first-child {
+    width: 300px;
+}
+
+.app__footer_links-copyright {
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 2000px) {
+
+}
+
+@media screen and (max-width: 900px) {
+    .app__newsletter {
+        width: 100%;       
+    }
+
+    .app__footer_links {
+        display: flex;
+        flex-direction: column;
+    }   
+
+    .app__footer_links-logo {
+        margin-top: 2rem;
+    }
+
+    .app__footer_links-work {
+        margin-top: 2rem;
+    } 
+}
+
+@media screen and (max-width: 650px) {
+    .app__newsletter {
+        width: 100%;       
+    }
+
+    .app__newsletter-input input{
+        width: 150px;
+    }  
+    
+    .app__newsletter-heading {
+        text-align: center;
+    }
+
+    .app__newsletter-heading h1 {
+        font-size: 32px;
+        text-align: center;
+    }
+
+}
