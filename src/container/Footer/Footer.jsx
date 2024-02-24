@@ -28,7 +28,7 @@ const Footer = () => {
           <p className="p__opensans">0245-xxx-xx-xx</p>
         </div>
         <div className="app__footer_links-logo">
-          <img src={images.gericht} alt="footer-logo"/>
+          <img src={images.signature} alt="footer-logo"/>
           <p className="p__opensans">Lorem ipsum dolor sit amet, consectetur.</p>
           <img src={images.spoon} alt="footer-spon"/>
           <div className="app__footer_links-icons">
@@ -46,7 +46,9 @@ const Footer = () => {
         </div>
       </div>
       <div className="app__footer_links-copyright">
-        <p className="p__opensans">2024 All rights reserved</p>
+        <p className="p__opensans">2024 All rights reserved
+          <img src={images.signature} alt="copy-logo" width="50px" style={{marginLeft: "0.5rem"}}/>
+        </p>
       </div>
     </div>
   )
